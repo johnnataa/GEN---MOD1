@@ -1,4 +1,4 @@
-package atividadesdia8;
+package atividades_dia_8;
 
 import java.util.Scanner;
 
