@@ -9,11 +9,11 @@ public class Atividade2 {
 		// ATIVIDADE 2
 		Scanner leia = new Scanner(System.in);
 		
-		int numero, par = 0, impar = 0;
+		int numero, par = 0, impar = 0, seq;
 		
 		
-		for (int i = 1; i < 11; i ++) {
-			System.out.println("Digite o " + i + "° número:");
+		for (seq = 1; seq < 11; seq ++) {
+			System.out.println("Digite o " + seq + "° número:");
 			numero = leia.nextInt();
 			if (numero % 2 == 0) {
 				par ++;

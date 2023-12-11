@@ -15,10 +15,10 @@ public class Atividade3 {
 			System.out.println("Digite uma idade: ");
 			idade = leia.nextInt();
 
-			if (idade >= 50) {
+			if (idade > 50) {
 				idoso++;
 			}
-			if (idade < 21 && idade > 0) {
+			else if (idade < 21 && idade > 0) {
 				cri++;
 			}
 		}
